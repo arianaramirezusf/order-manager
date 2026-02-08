@@ -1,25 +1,25 @@
 let inventory = [
     {
-        sku: "SKU-123",
+        sku: "123",
         name: "Lipstick",
         price: 9.99,
         stock: 100
 
     },
     {
-        sku: "SKU-456",
+        sku: "456",
         name: "Eyeliner",
         price: 14.99,
         stock: 50
     },
     {
-        sku: "SKU-789",
+        sku: "789",
         name: "Mascara",
         price: 12.99,
         stock: 30
     },
     {
-        sku: "SKU-321",
+        sku: "521",
         name: "Foundation",
         price: 19.99,
         stock: 75
@@ -30,3 +30,12 @@ let inventory = [
 inventory.forEach(item => {
     console.log(`SKU: ${item.sku}, Name: ${item.name}, Price: $${item.price}, Stock: ${item.stock}`);
 });
+
+inventory.push({
+    sku: "652",
+    name: "Blush",
+    price: 11.99,
+    stock: 40
+});
+
+
